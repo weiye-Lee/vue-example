@@ -1,11 +1,23 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link>
-    |
-    <router-link to="/about">About</router-link>
+  <div class="app">
+    <sidebar id="sidebar" />
+    <div id="nav">
+      <router-link to="/">Home</router-link>
+      |
+      <router-link to="/about">About</router-link>
+      |
+      <router-link to="/example01">example01</router-link>
+    </div>
+    <router-view />
   </div>
-  <router-view />
 </template>
+<script lang="ts">
+import { defineComponent } from "vue";
+import sidebar from "@/views/sidebar.vue";
+export default defineComponent({
+  components: { sidebar }
+});
+</script>
 
 <style>
 #app {
