@@ -1,6 +1,7 @@
 <template>
   <div class="sidebar">
-    <router-link to="/example01">图标</router-link>
+    <router-link to="/example01">东北林业大学</router-link>
+    <router-link to="/example01">北京林业大学</router-link>
   </div>
 </template>
 <script lang="ts">

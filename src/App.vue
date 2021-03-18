@@ -7,6 +7,8 @@
       <router-link to="/about">About</router-link>
       |
       <router-link to="/example01">example01</router-link>
+      |
+      <router-link to="/example02">example02</router-link>
     </div>
     <router-view />
   </div>
